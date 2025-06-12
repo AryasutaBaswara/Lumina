@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #9AAEB3;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+header p{
+    font-size: 2rem;
+    color: #ffffff7e;
+    margin-top: 1.5rem;
+    width: 40vw;
+}
+
+.back{
+    display: flex;
+    margin-left: 2rem;
+    transition: all 0.5s ease;
+    background: transparent;
+    width: 8vw;
+    color: #fff;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    /* z-index: 2; */
+}
+
+.back:hover{
+    transform: scale(1.1);
+    transform: translateX(-0.5rem);
+}
+
+.back img{
+    /* transform: translateY(rem); */
+    background: transparent;
+    filter: invert(1);
+}
+
+.back h3{
+    background: transparent;
+}
+
+/* Section 1 */
+
+.section-1, .section-2, .section-3,.section-4{
+    display: flex;
+}
+
+img{
+    width: 800px;
+    height: 700px;
+}
+
+.text-1, .text-2, .text-3, .text-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transform: translateY(-3rem);
+}
+
+.text-1 h3, .text-2 h3, .text-3 h3, .text-4 h3{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+.text-1 p, .text-2 p, .text-3 p, .text-4 p{
+    font-size: 1.5rem;
+    font-family: 'Inter', serif;
+    width: 38vw;
+    margin-top: 2rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+
+
